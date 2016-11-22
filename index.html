@@ -5,6 +5,8 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<script src="js/jquery-3.1.1.min.js"></script>
 	<script src="js/angular.min.js"></script>
+	<script src="js/breeze.debug.js"></script>
+	<script src="js/breeze.bridge.angular.js"></script>
     <script src="js/bootstrap.min.js"></script>
 	<script src="js/angular/index.js"></script>
 </head>
@@ -15,10 +17,10 @@
 </div>
   
 <div class="container">
-    <div class="col-sm-4">
+    <div class="text-center">
         <div ng-app="IndexApp" ng-controller="IndexCtrl">
 		    Username: <input type="text" ng-model="userName"><br>
-		    Password: <input type="text" ng-model="password"><br>
+		    Password: <input type="text" ng-model="password"><br><br>
 			<button ng-click="login()">Log In</button>
 		</div>
     </div>
